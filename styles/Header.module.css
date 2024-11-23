@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #3b82f6; /* azul 500 */
+  color: white;
+}
+
+.logo {
+  font-size: 1.125rem; /* texto grande */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttonContainer button {
+  background-color: white;
+  color: #3b82f6; /* azul 500 */
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  margin-right: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.buttonContainer button:last-child {
+  margin-right: 0; /* Elimina el margen del último botón */
+}
+
+.welcomeMessage {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.userName {
+  text-decoration: underline; /* Subrayado solo para el nombre */
+  cursor: pointer;
+  transition: text-decoration 0.3s;
+}
+
+.userName:hover {
+  text-decoration: none; /* Opción para quitar el subrayado en hover */
+}
+
+.clickable {
+  cursor: pointer;
+}
+

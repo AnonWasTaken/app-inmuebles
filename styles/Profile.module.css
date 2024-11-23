@@ -1,0 +1,121 @@
+/* Contenedor principal */
+.mainContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+}
+
+/* Contenido del perfil */
+.profileContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Título del perfil */
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 2rem;
+}
+
+/* Tarjeta del perfil */
+.profileCard {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Elementos individuales del perfil */
+.profileItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.profileItem:last-child {
+  border-bottom: none; /* Remueve el borde del último */
+}
+
+/* Etiqueta de los elementos */
+.label {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Contenedor para los botones */
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espaciado uniforme entre los botones */
+  margin-top: 1.5rem;
+  width: 100%;
+  align-items: center;
+  max-width: 400px;
+}
+
+/* Botón base */
+.button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px; /* Bordes ligeramente redondeados */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  width: 60%; /* Asegura que ocupen todo el ancho del contenedor */
+  text-align: center;
+}
+
+/* Botón para crear publicaciones */
+.createPostButton {
+  background-color: #007bff;
+  color: white;
+}
+
+.createPostButton:hover {
+  background-color: #0056b3;
+}
+
+.createPostButton:active {
+  background-color: #003f8c;
+}
+
+/* Botón para mis chats */
+.chatsButton {
+  background-color: #28a745;
+  color: white;
+}
+
+.chatsButton:hover {
+  background-color: #218838;
+}
+
+.chatsButton:active {
+  background-color: #1e7e34;
+}
+
+/* Botón para cerrar sesión */
+.logoutButton {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.logoutButton:hover {
+  background-color: #e63939;
+}
+
+.logoutButton:active {
+  background-color: #cc0000;
+}
+
